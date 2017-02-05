@@ -1,0 +1,8 @@
+<p>This is the Marvel dashboard for ComicId, Title and Description (truncated using filter) :).</p>
+<div>
+
+  <ul ng-repeat="mic in comicList">
+    <li ng-repeat="res in mic.data.results">#{{res.id}} ----- {{res.title}} ------- {{res.description | truncate:40}}</li>
+  </ul>
+</div>
+
