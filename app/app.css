@@ -1,9 +1,17 @@
 table {
   border: 1px solid #666;
-  width: 50%;
+  width: 80%;
+  table-layout: fixed;
 }
 th {
   background: #f8f8f8;
   font-weight: bold;
   padding: 2px;
+  text-align: left;
 }
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
